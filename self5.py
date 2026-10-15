@@ -35,7 +35,7 @@ from telethon.tl.functions.account import UpdateProfileRequest
 # ====== تنظیمات ======
 api_id = 37335770          # <-- اینجا رو با api_id خودت جایگزین کن
 api_hash = "06a09098419081a2a359cce96ab1eaaf"  # <-- اینجا رو با api_hash خودت جایگزین کن
-session_name = "meow_session5"
+session_name = "meow_sessn"
 
 tz_offset_hours = 3.5            # تایم‌زون تهران (UTC+3:30)
 clock_interval_seconds = 60      # فاصله‌ی آپدیت ساعت بیو/اسم
@@ -849,4 +849,4 @@ async def main():
 
 
 if __name__ == "__main__":
-    asyncio.run(main())'
+    asyncio.run(main())
